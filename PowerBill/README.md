@@ -6,7 +6,9 @@ The company needs a program capable of calculating and generating invoices for e
 
 - **Fixed Service Fee:** Every subscriber pays a fixed fee of 5,400 colones.  
 - **Consumption Charge:** Electricity usage is measured in kilowatt-volts (KWVs) and billed progressively according to the following tiered rate table:
+
 | From (KWVs) | To (KWVs) | Price per KWV (colones) |
+
 |-------------|-----------|--------------------------|
 | 0           | 15        | 500                      |
 | 16          | 30        | 550                      |
