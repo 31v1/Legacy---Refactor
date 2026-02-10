@@ -5,7 +5,13 @@ The **Compañía de Fuerza y Luz (CFL)** provides electricity service to approxi
 The company needs a program capable of calculating and generating invoices for electricity consumption based on the following rules:
 
 - **Fixed Service Fee:** Every subscriber pays a fixed fee of 5,400 colones.  
-- **Consumption Charge:** Electricity usage is measured in kilowatt-volts (KWVs) and billed progressively according to a tiered rate table.  
+- **Consumption Charge:** Electricity usage is measured in kilowatt-volts (KWVs) and billed progressively according to the following tiered rate table:
+| From (KWVs) | To (KWVs) | Price per KWV (colones) |
+|-------------|-----------|--------------------------|
+| 0           | 15        | 500                      |
+| 16          | 30        | 550                      |
+| 31          | ∞         | 600                      |
+ 
 - **Cruz Roja Tax:** An additional charge of 10 colones per KWV consumed is applied to support the Costa Rican Red Cross.  
 - **Value Added Tax (VAT):** A 13% tax is applied to the consumption charge if the subscriber uses more than 25 KWVs.  
 
