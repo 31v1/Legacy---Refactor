@@ -10,9 +10,13 @@ The company needs a program capable of calculating and generating invoices for e
 | From (KWVs) | To (KWVs) | Price per KWV (colones) |
 
 |-------------|-----------|--------------------------|
+
 | 0           | 15        | 500                      |
+
 | 16          | 30        | 550                      |
+
 | 31          | ∞         | 600                      |
+
  
 - **Cruz Roja Tax:** An additional charge of 10 colones per KWV consumed is applied to support the Costa Rican Red Cross.  
 - **Value Added Tax (VAT):** A 13% tax is applied to the consumption charge if the subscriber uses more than 25 KWVs.  
