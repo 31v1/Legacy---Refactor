@@ -1,6 +1,6 @@
 # PowerBill
 
-The **Compañía de Fuerza y Luz (CFL)** provides electricity service to approximately 200,000 subscribers. Billing is a critical process that must be automated to ensure accuracy, efficiency, and transparency. The existing system does not meet operational needs, creating the requirement for a new solution.
+The **Compañía de Fuerza y Luz (CFL)** provides electricity service to approximately 200,000 subscribers. Billing is a critical process that must be automated to ensure accuracy, efficiency, and transparency. The existing system does not meet operational needs, hence, a new system is critical.
 
 The company needs a program capable of calculating and generating invoices for electricity consumption based on the following rules:
 
