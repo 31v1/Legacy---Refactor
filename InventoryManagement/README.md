@@ -1,9 +1,17 @@
 ASADAS Inventory & Order Management System
---
 
 A console-based C++ application developed for the Programming I course at UNED.
-This system manages spare parts inventory and orders for ASADAS (Associations Administering Aqueduct and Sewer Systems). It demonstrates fundamental programming concepts: file persistence, data validation, modular design with functions, and menu-driven user interaction.
+This system manages spare parts inventory and orders for ASADAS (Associations Administering Aqueduct and Sewer Systems).
 
+It demonstrates fundamental programming concepts:
+
+    File persistence
+
+    Data validation
+
+    Modular design with functions
+
+    Menu-driven user interaction
 
 🚀 Features
 Inventory Management
@@ -26,8 +34,6 @@ Inventory Management
 
     Data stored in INVENTARIO.TXT.
 
-
-
 Order Management
 
     Create orders with:
@@ -42,13 +48,11 @@ Order Management
 
     Search orders by code.
 
-    Cancel orders (change status to "Cancelado").
+    Cancel orders (status → "Cancelado").
 
-    Mark as delivered (change status to "Entregado").
+    Mark as delivered (status → "Entregado").
 
     Data stored in PEDIDOS.TXT.
-
-
 
 Reports
 
@@ -56,9 +60,7 @@ Reports
 
     Orders Report: tabulated list of all orders with current status.
 
-
-
-Persistence & Data Handling
+💾 Persistence & Data Handling
 
     Data is loaded from text files into matrices (2D arrays) at startup.
 
@@ -68,9 +70,7 @@ Persistence & Data Handling
 
     Files are plain text and can be inspected/modified externally.
 
-
-
-User Interface & Validation
+🖥️ User Interface & Validation
 
     Clean console menu with numbered options.
 
@@ -89,8 +89,6 @@ User Interface & Validation
     User-friendly messages and confirmations.
 
     Option to return to main menu after each operation.
-
-
 
 🛠️ Technologies
 
