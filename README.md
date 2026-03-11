@@ -16,14 +16,4 @@ Here you will find each project with its explanation and two main folders:
 
 Each project includes its own explanation and two main folders (Legacy and Refactor). Some refactors may have multiple languages to compare implementations.
 
-For example
-
-📂 ProjectName/
- ├── Legacy/      # Original code from the course
- ├── Refactor/    # Improved version with better practices
- │    ├── Java/   # Refactor in Java (if applicable)
- │    ├── C++/    # Refactor in C++ (if applicable)
- │    └── C#/     # Refactor in C# (future idea)
- └── README.md    # Project explanation
-
 ---
