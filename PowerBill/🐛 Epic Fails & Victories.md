@@ -5,7 +5,7 @@
 
 🏆 Victories
 
-    I have 4 clases ready...
+    I have 3 clases ready...
 
 🔮 Next Steps
 
