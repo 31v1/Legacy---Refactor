@@ -2,6 +2,7 @@
 🐛 Fails
 
     Havent work on the refactor in a while....
+    C++ refactor missing
 
 🏆 Victories
 
@@ -10,5 +11,6 @@
 🔮 Next Steps
 
     Upload the remaining 2....
+    Start the C++ version of the refactor...
 
-⏱️ Estimated Time: tomorrow… or maybe next century.
+⏱️ Estimated Time: tomorrow… or maybe next millennium...specially the C++ version...
