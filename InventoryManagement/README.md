@@ -69,7 +69,12 @@ Reports
 🛠️ Technologies
 ------------------------------------------------------------
 Language: C++ (C++11)
+
 IDE: Code::Blocks (recommended)
+
 Persistence: Plain text files
+
 Paradigm: Procedural (functions)
+
 Data structures: 2D arrays
+
