@@ -3,22 +3,13 @@ ASADAS Inventory & Order Management System
 A console-based C++ application developed for the Programming I course at UNED.
 This system manages spare parts inventory and orders for ASADAS (Associations Administering Aqueduct and Sewer Systems).
 
-It demonstrates fundamental programming concepts:
-
-    File persistence
-
-    Data validation
-
-    Modular design with functions
-
-    Menu-driven user interaction
-
+It demonstrates fundamental programming concepts: file persistence, data validation, modular design with functions, and menu-driven user interaction.
 🚀 Features
 Inventory Management
 
     Add new spare parts with:
 
-        Unique part code (P followed by up to 8 digits, e.g., P00000890)
+        Unique part code (P + up to 8 digits, e.g., P00000890)
 
         Part name, unit cost, quantity
 
@@ -38,13 +29,13 @@ Order Management
 
     Create orders with:
 
-        Unique order code (PE followed by up to 8 digits, e.g., PE00000890)
+        Unique order code (PE + up to 8 digits, e.g., PE00000890)
 
         Part code, quantity requested
 
         Employee ID, request date (DD/MM/YYYY)
 
-        Status: automatically set to "En proceso" (In process)
+        Status: automatically set to "En proceso"
 
     Search orders by code.
 
