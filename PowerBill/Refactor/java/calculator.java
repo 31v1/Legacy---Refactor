@@ -1,4 +1,4 @@
-package waterbill;
+package powerbill;
 
 /**
  * Class Calculator
