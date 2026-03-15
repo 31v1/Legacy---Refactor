@@ -15,30 +15,34 @@ private:
     string cedula;
 
 public:
-    // Constructores
+    //constructor con parametros
+    Pieza(string cod, string nom, double cost, int cant, string emp, string fact, string ced);
+    //Constructor por defecto
     Pieza();
-    Pieza(string cod, string nom, double cost, int cant, 
-          string emp, string fact, string ced);
-    
-    // Métodos
-    void mostrarInfo() const;
-    
-    // Getters
+
+    // mostrar informacion pieza
+    void mostrarInfo();
+
+    // Métodos 'get' y 'set' para cada atributo
     string getCodigo() const;
-    string getNombre() const;
-    double getCosto() const;
-    int getCantidad() const;
-    string getEmpresa() const;
-    string getFactura() const;
-    string getCedula() const;
-    
-    // Setters
     void setCodigo(string cod);
+
+    string getNombre() const;
     void setNombre(string nom);
+
+    double getCosto() const;
     void setCosto(double cost);
+
+    int getCantidad() const;
     void setCantidad(int cant);
+
+    string getEmpresa() const;
     void setEmpresa(string emp);
+
+    string getFactura() const;
     void setFactura(string fact);
+
+    string getCedula() const;
     void setCedula(string ced);
 };
 
