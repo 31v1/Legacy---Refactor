@@ -14,28 +14,27 @@ private:
     string estado;
 
 public:
-    // Constructores
+    //constructores
+    Pedido(string cod, string codPieza, int cant, string idEmpleado, string fechaSoli, string estad);
     Pedido();
-    Pedido(string cod, string codPieza, int cant, string idEmpleado, 
-           string fechaSoli, string estad);
-    
-    // Métodos
-    void mostrarInfo() const;
-    
-    // Getters
+
+    // Métodos 'get' y 'set' para cada atributo
     string getCodigo() const;
-    string getCodigoPieza() const;
-    int getCantidad() const;
-    string getIdentificacionEmpleado() const;
-    string getFechaSolicitud() const;
-    string getEstado() const;
-    
-    // Setters
     void setCodigo(string cod);
+
+    string getCodigoPieza() const;
     void setCodigoPieza(string codPieza);
+
+    int getCantidad() const;
     void setCantidad(int cant);
-    void setIdentificacionEmpleado(string idEmpleado);
+
+    string getFechaSolicitud() const;
     void setFechaSolicitud(string fechaSoli);
+
+    string getIdentificacionEmpleado() const;
+    void setIdentificacionEmpleado(string idEmpleado);
+
+    string getEstado() const;
     void setEstado(string estad);
 };
 
