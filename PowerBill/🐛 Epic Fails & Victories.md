@@ -30,3 +30,19 @@
 - Prepare README + Epic Fails & Victories Log entry.
 
 ⏱️ **Estimated Time:** done after 3 days… but hey, victory tastes sweet!
+
+## 📅 March 16, 2026
+
+### 🐛 Fails  
+- Forgot that Java convention says `Main` with capital M.
+
+### 🏆 Victories
+- Final report shows totals like a real billing system.
+
+### 🔮 Next Steps
+- Consider adding a BillingSystem class with ArrayList.  
+- Add persistence to save invoices.  
+- Polish report formatting for presentation.
+
+⏱️ **Estimated Time:** Hard to say… but victory achieved!
+**
