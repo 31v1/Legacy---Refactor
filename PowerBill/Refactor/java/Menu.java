@@ -1,4 +1,4 @@
-package waterbill;
+package powerbill;
 import java.util.Scanner;
 
 /**
