@@ -1,4 +1,4 @@
-package powerbill;
+package waterbill;
 
 /**
  * Class Calculator
@@ -57,7 +57,7 @@ public class Calculator {
     /** business rules values
      */
     
-    private static final int FIXED_SERVICE_FEE = 5400;
+    public static final int FIXED_SERVICE_FEE = 5400;
     private static final int LOW_KWV = 500;
     private static final int MEDIUM_KWV = 550;
     private static final int HIGH_KWV = 600;
@@ -70,7 +70,7 @@ public class Calculator {
      * @return the total consumption charge
      * 
      */
-    public double calculateConsumptionCharge(){
+    public double calculateBaseConsumptionCharge(){
     int kwv = client.getKwvConsumed(); 
     double charge = 0;
     
@@ -81,17 +81,26 @@ public class Calculator {
                 charge = (15*LOW_KWV) + (kwv - 15)*MEDIUM_KWV;
             }
                 else if (kwv > 30){
-                    charge = (15*LOW_KWV) + (15 * MEDIUM_KWV) + (kwv - 30)*HIGH_KWV;     
+                    charge = (15*LOW_KWV) + (15 * MEDIUM_KWV) + (kwv - 30)*HIGH_KWV;
                 }
 
-            // Apply VAT (IVA) if consumption exceeds 25 KWVs
-            if (kwv > 25){
-                charge = charge +(charge * IVA_RATE);
-            }
-
         return charge;
-    }
+        }
+        
     
+    /* Calculate the VAT (IVA) if consumption exceeds 25 KWVs
+    @return the IVA charge amount.
+    */
+    public double IVAcharge(){
+    int kwv = client.getKwvConsumed(); 
+    double IVAcharge = 0;
+        if (kwv > 25){
+               IVAcharge = (calculateBaseConsumptionCharge() * IVA_RATE);
+            }
+        return IVAcharge;
+        
+    }
+           
     /** Calculate Red Cross contribution based on KWVs consumed
      * @return the tax charge
      * 
@@ -109,7 +118,7 @@ public class Calculator {
      * 
      */
     public double totalBill(){
-        double total = calculateConsumptionCharge() + taxRedCross() + FIXED_SERVICE_FEE;
+        double total = calculateBaseConsumptionCharge() + IVAcharge() + taxRedCross() + FIXED_SERVICE_FEE;
         return total;
-    }  
+    }
 }
