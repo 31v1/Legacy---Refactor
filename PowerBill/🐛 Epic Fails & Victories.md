@@ -1,16 +1,14 @@
-📅 March 11, 2026
-🐛 Fails
+## 📅 March 11, 2026
 
-    Havent work on the refactor in a while....
-    C++ refactor missing
+### 🐛 Fails
+- Haven’t worked on the refactor in a while…  
+- C++ refactor still missing.
 
-🏆 Victories
+### 🏆 Victories
+- I have 3 classes ready!
 
-    I have 3 clases ready...
+### 🔮 Next Steps
+- Upload the remaining 2.  
+- Start the C++ version of the refactor.
 
-🔮 Next Steps
-
-    Upload the remaining 2....
-    Start the C++ version of the refactor...
-
-⏱️ Estimated Time: tomorrow… or maybe next millennium...specially the C++ version...
+⏱️ **Estimated Time:** tomorrow… or maybe next millennium (especially the C++ version).
