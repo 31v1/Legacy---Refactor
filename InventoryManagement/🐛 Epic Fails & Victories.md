@@ -19,18 +19,16 @@
 
 ### 🐛 Fails
 - I honestly don’t know if this counts as a refactor, a rebuild… or just creating everything from scratch.  
-- Legacy code was messy enough to make me question reality.  
+- Legacy code was messy enough to make me question reality.
 
 ### 🏆 Victories
 - I managed to get a working version anyway.  
-- Classes, functions, and file handling are alive and kicking.... I suppose...not sure at this point...  
-- At least now it looks less spaghetti... I like to think...  
+- Classes, functions, and file handling are alive and kicking… I suppose… not sure at this point.  
+- At least now it looks less spaghetti… or so I like to think.
 
 ### 🔮 Next Steps
 - Decide if I call this a refactor, rebuild, or “Project Phoenix.”  
-- Keep polishing ALL.  
-- Pretend I had a plan all along.  
+- Keep polishing **everything**.  
+- Pretend I had a plan all along.
 
 ⏱️ **Estimated Time:** undefined… maybe forever, maybe tomorrow. Who knows?
-
-
