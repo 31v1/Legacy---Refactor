@@ -12,3 +12,21 @@
 - Start the C++ version of the refactor.
 
 ⏱️ **Estimated Time:** tomorrow… or maybe next millennium (especially the C++ version).
+
+## 📅 March 15, 2026
+
+### 🐛 Fails
+- Making the menu took way longer than expected…  
+- Spent 3 days fighting with Scanner, loops, and validations.
+
+### 🏆 Victories
+- I finally completed the menu!  
+- It now connects Client, Invoice, and Calculator smoothly.  
+- Global report option is working too.
+
+### 🔮 Next Steps
+- Polish the code and add comments.  
+- Test with multiple clients and invoices.  
+- Prepare README + Epic Fails & Victories Log entry.
+
+⏱️ **Estimated Time:** done after 3 days… but hey, victory tastes sweet!
