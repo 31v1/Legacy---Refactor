@@ -59,7 +59,7 @@ public class Invoice {
      */
     
     public final void setClient(Client client){
-        if (client != null){
+        if (client == null){
             throw new IllegalArgumentException ("Client is empty.");
         }
             this.client = client;
@@ -71,7 +71,7 @@ public class Invoice {
      */
     
     public final void setCalculator(Calculator calculator){
-        if (calculator != null){
+        if (calculator == null){
             throw new IllegalArgumentException ("Calculator is empty.");
         }
             this.calculator = calculator;
