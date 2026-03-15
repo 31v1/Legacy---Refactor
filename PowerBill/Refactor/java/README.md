@@ -36,5 +36,5 @@ The goal was to migrate the logic into an **object-oriented design**, separating
 - Refactored from a single block of code into modular classes.
 
 ## 🐛 Epic Fails & 🏆 Victories Log
-See [🐛 Epic Fails & Victories.md](LOG.md) for the running gag of fails, victories, and estimated times.  
+See [🐛 Epic Fails & Victories.md](https://github.com/31v1/Legacy---Refactor/blob/main/PowerBill/%F0%9F%90%9B%20Epic%20Fails%20%26%20Victories.md) for the running gag of fails, victories, and estimated times.  
 
