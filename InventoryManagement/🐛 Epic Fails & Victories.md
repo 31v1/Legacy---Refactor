@@ -50,3 +50,25 @@
 
 ⏱️ **Estimated Time:** PowerBill → days. Phoenix → epochs.
 
+## 📅 March 16, 2026
+
+## The Spaghetti Code Decision 🍝
+Today I made a decision: my first big refactor will start with the spaghetti code I wrote in C++.  
+It works, but it’s tangled, full of globals, duplicated logic, and nested switches.  
+Instead of hiding it, I’ll turn it into a story of growth.
+
+## The Plan ✨
+- **Step 1:** Refactor the project in **Java**.  
+  Java is easier to structure, connects directly to my academic projects, and will let me practice clean OOP.  
+- **Step 2:** Port the design back to **C++**, I can handle complexity and memory management (or that is what I like to believe).  
+- **Step 3:** Explore **C#**, and emphasis on explore because it will be after viewing a youtube tutorial.
+
+## Lessons I Expect to Learn 📚
+- How to transform spaghetti into structured lasagna code.  
+- How refactoring is not just about fixing code, but about telling a story of growth.  
+- How each language (Java, C++, C#) teaches me something different about design and discipline.
+
+⏱️ **Estimated Time:** Soon...
+
+
+
