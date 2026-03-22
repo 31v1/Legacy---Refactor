@@ -70,18 +70,19 @@ Instead of hiding it, I’ll turn it into a story of growth.
 
 ⏱️ **Estimated Time:** Soon...
 
-📅 March 22, 2026
-🐛 Fails
+## 📅 March 22, 2026
 
-    Left C++ on hold. For the mental peace of all people involved...meaning...me.
+### 🐛 Fails
 
-🏆 Victories
+- Left C++ on hold. For the mental peace of all people involved...meaning...me.
 
-    Created 2 classes for the java refactor.
+### 🏆 Victories
 
-🔮 Next Steps
+- Created 2 classes for the java refactor.
 
-    Continue with the classes.
+### 🔮 Next Steps
+
+- Continue with the classes.
 
 ⏱️ Estimated Time: Unknown.
 
