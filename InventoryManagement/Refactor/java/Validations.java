@@ -1,5 +1,11 @@
 package managementsystem;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
+
+
+
 /**
  * Class Validations
  * Purpose: Static class that validates data before creation
@@ -61,7 +67,7 @@ public class Validations {
         return true;
     }
     
-/* Validates that the company name is a positive integer.
+/* Validates the company name format.
 *  A valid name can have letters and space but not null.
 * @param companyName the company name to validate (can be null)
 * @return true if the companyName is not null, has the correct format; false otherwise
@@ -88,7 +94,6 @@ public class Validations {
     }
     
  /* Validates that the employee ID is a 9-digit number.
- *
  * @param id the employee ID to validate (can be null)
  * @return true if id is not null, has 9 digits; false otherwise
  */
@@ -100,4 +105,50 @@ public class Validations {
         return trimmed.matches("^\\d{9}$");
     }
     
+/* Validates the order format code.
+* A valid code must start with 'PE' followed by exactly 8 digits.
+* @param orderCode the piece code to validate (can be null)
+* @return true if the code is not null, has the correct format and length; false otherwise
+*/
+    public static boolean isValidOrderCode(String code) {
+        if ( code == null){
+            return false;
+        }
+        String trimmed = code.trim();
+        return trimmed.matches("^PE\\d{8}$");
+    }
+  
+/* Validates that the employee number is an alphanumeric number.
+ * @param id the employee number to validate (can be null)
+ * @return true if id is not null; false otherwise
+ */
+    public static boolean isValidEmployeeUser(String id) {
+        if ( id == null){
+            return false;
+        }
+        String trimmed = id.trim();
+        return trimmed.matches("[\\p{L} ]+");
+    }
+    
+/**
+* Converts a String into a LocalDate using the format dd/MM/yyyy.
+* If the input is null or empty, returns false.
+* @param date the date in format dd/MM/yyyy
+* @throws IllegalArgumentException if the format is invalid
+*/
+    public static boolean isValidDate(String date){
+        if (date == null || date.trim ().isEmpty()) {
+            return false;
+        }
+        
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+            
+        try {
+             LocalDate.parse(date.trim(), formatter);
+             return true;
+        } catch (DateTimeParseException e) {
+            return false;
+        }
+    }
+        
 }
