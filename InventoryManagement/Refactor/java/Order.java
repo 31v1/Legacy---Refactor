@@ -88,8 +88,10 @@ public class Order {
     }
 
     //Default Constructor    
-    
+        
+    // If there's an empty order, it will have a valid status by default.
     public Order() {
+        this.orderStatus = OrderStatus.EN_PROCESO;
     }
     
 }
